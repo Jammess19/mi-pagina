@@ -1,20 +1,20 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-    text-align: center;
+    font-family: Arial, sans-serif;    /* Fuente legible */
+    margin: 0;                  /* Elimina margenes por defecto */
+    padding: 0;                 /* Elimina padding por defecto */
+    background-color: #f4f4f4;  /* Color de fondo suave */
+    color: #333;            /* Color de texto oscuro para buena legibilidad */
+    text-align: center;  /* Centra el texto */
 }
 
 header {
-    background-color: #0078d7;
-    color: white;
-    padding: 20px;
+    background-color: #0078d7;  /* Color de fondo azul */
+    color: white;            /* Texto blanco */
+    padding: 20px;          /* Espaciado interno */
 }
 
 header .foto {
-    width: 300px;
+    width: 300px;   
     height: 300px;
     border-radius: 50%;
     border: 3px solid white;
@@ -22,36 +22,35 @@ header .foto {
 }
 
 section {
-    background: white;
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 600px;
+    background: white;  /* Fondo blanco para las secciones */
+    margin: 20px auto;  
+    padding: 20px;  
+    max-width: 600px;   
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    padding: 3px;          /* Espaciado interno */
 }
 
 ul li {
-    padding: 5px 0;
+    padding: 5px 0;         /* Espaciado entre elementos de la lista */
 }
 
 a {
-    color: #0078d7;
-    text-decoration: none;
-}
+    color: #0078d7; /* Color azul para enlaces */
+    text-decoration: none;  /* Sin subrayado */
+}   
 
 footer {
-    margin-top: 20px;
+    margin-top: 20px;   
     padding: 10px;
     background: #333;
     color: white;
 }
 
 footer a {
-    color: #0078d7;
-    text-decoration: none;
+    color: #0078d7; /* Color azul para enlaces en el pie de página */
+    text-decoration: none;  /* Sin subrayado */
 }
